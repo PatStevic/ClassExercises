@@ -20,7 +20,7 @@ namespace LabNumber._2
                 decimal classRoomArea = classroomLengthResponse * classroomWidthResponse;
                 decimal classRoomPerimeter = (2 * (classroomLengthResponse + classroomWidthResponse));
 
-                Console.WriteLine("Nice, thanks for helping!\n\nRoom: Classroom\nClassroom Area: " + classRoomArea + " ft\nClassroom Perimeter: " + classRoomPerimeter + " ft");
+                Console.WriteLine("\nNice, thanks for helping!\n\nRoom: Classroom\nClassroom Area: " + classRoomArea + " ft\nClassroom Perimeter: " + classRoomPerimeter + " ft");
                 Console.WriteLine("\n\nWould you like to continue helping us measure rooms? (y/n)");
                 string wouldTheUderLikeToContinue = Console.ReadLine();
 
@@ -71,7 +71,7 @@ namespace LabNumber._2
                 decimal classRoomArea = classroomLengthResponse * classroomWidthResponse;
                 decimal classRoomPerimeter = (2 * (classroomLengthResponse + classroomWidthResponse));
 
-                Console.WriteLine("Nice, thanks for helping!\n\nRoom: Classroom\nClassroom Area: " + classRoomArea + " ft\nClassroom Perimeter: " + classRoomPerimeter + " ft");
+                Console.WriteLine("\nNice, thanks for helping!\n\nRoom: Classroom\nClassroom Area: " + classRoomArea + " ft\nClassroom Perimeter: " + classRoomPerimeter + " ft");
                 Console.WriteLine("\n\nWould you like to continue helping us measure rooms? (y/n)");
                 string wouldTheUderLikeToContinue = Console.ReadLine();
 
@@ -105,28 +105,30 @@ namespace LabNumber._2
                 Console.WriteLine("\n\nThanks for helping!\nThis place is going to look great!");
 
             }
-
-            //if (wouldTheUderLikeToContinue.ToLower() == "y")
-            //    {
-            //    Console.WriteLine("Sweet! Enter the name of the next room you are about to measure (Kitchen, Breakroom, Reception Area, Etc...)");
-            //    string roomOneName = Console.ReadLine();
-
-            //    Console.WriteLine("What is the length of the room?");
-            //    string roomOneLength = Console.ReadLine();
-            //    decimal roomOneLengthRespoinse = decimal.Parse(roomOneLength);
-
-            //    Console.WriteLine("What is the width of the room?");
-            //    string roomOneWidth = Console.ReadLine();
-            //    decimal roomOneWidthRespoinse = decimal.Parse(roomOneWidth);
-            //    }
-
-
-            //else
-            //{
-            //    console.writeline("i get it you're prob busy learning how to code. thanks anyways!");
-            //}
-            // Console.WriteLine("Would you like to continue helping us measure rooms? (y/n)");
-            // Console.WriteLine("I get it you're prob busy learning how to code. Thanks Anyways!");
         }
     }
 }
+
+
+
+//if (wouldTheUderLikeToContinue.ToLower() == "y")
+//    {
+//    Console.WriteLine("Sweet! Enter the name of the next room you are about to measure (Kitchen, Breakroom, Reception Area, Etc...)");
+//    string roomOneName = Console.ReadLine();
+
+//    Console.WriteLine("What is the length of the room?");
+//    string roomOneLength = Console.ReadLine();
+//    decimal roomOneLengthRespoinse = decimal.Parse(roomOneLength);
+
+//    Console.WriteLine("What is the width of the room?");
+//    string roomOneWidth = Console.ReadLine();
+//    decimal roomOneWidthRespoinse = decimal.Parse(roomOneWidth);
+//    }
+
+
+//else
+//{
+//    console.writeline("i get it you're prob busy learning how to code. thanks anyways!");
+//}
+// Console.WriteLine("Would you like to continue helping us measure rooms? (y/n)");
+// Console.WriteLine("I get it you're prob busy learning how to code. Thanks Anyways!");
